@@ -1,0 +1,52 @@
+                            the main results
+
+
+
+I)Overall investment cost is       43.35b€
+
+
+
+II)the Renewable capacity
+
+PV                     76.14  GW
+
+Offshore               14.46    GW
+
+onsore                149.17     GW
+
+run of river            7.50GW
+
+lake                   13.00GW
+
+biogas                  2.83 GW
+
+methanisation          15.94 GW
+
+pyrogasification        19.35 GW
+
+
+
+
+
+III)Needed storage volume
+
+Battery Storage                16.97       GWh
+
+PHS Storage                   180.00       GWh
+
+hydrogen storage             5000.00 GWh
+
+methane storage              4608.24   GWh
+
+tank                       160000.00 GWh
+
+
+
+
+
+IV) Conversion units
+
+P2G                            15.67 GWh
+
+G2P                            52.66 GWh
+
