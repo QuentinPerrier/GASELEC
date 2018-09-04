@@ -83,25 +83,25 @@ $ondelim
 $include  inputs/existing_capas.csv
 $offdelim
 / ;
-parameter capex(tec) 'annualized capex cost in M€/GW/year'
+parameter capex(tec) 'annualized capex cost in Mâ‚¬/GW/year'
 /
 $ondelim
 $include  inputs/annuities_mix.csv
 $offdelim
 / ;
-parameter capex_en(str)  'annualized capex cost in M€/GWh/year'
+parameter capex_en(str)  'annualized capex cost in Mâ‚¬/GWh/year'
 /
 $ondelim
 $include inputs/str_annuities.csv
 $offdelim
 / ;
-parameter fOM(tec) 'annualized fixed operation and maintenance costs M€/GW'
+parameter fOM(tec) 'annualized fixed operation and maintenance costs Mâ‚¬/GW'
 /
 $ondelim
 $include  inputs/fO&M_mix.csv
 $offdelim
 / ;
-Parameter vOM(tec) 'Variable operation and maintenance costs in M€/GWh'
+Parameter vOM(tec) 'Variable operation and maintenance costs in Mâ‚¬/GWh'
 /
 $ondelim
 $include  inputs/vO&M_mix.csv
@@ -130,7 +130,7 @@ variables        GENE(tec,h)     'hourly energy generation in TWh'
                  CONVERT(conv,h) 'vector conversion from electricity to gas and the opposite in GW'
                  CAPACITY(str)   'energy volume of storage technologies in GWh'
                  RSV(frr,h)      'required upward frequency restoration reserve in GW'
-                 COST            'final investment cost in b€'
+                 COST            'final investment cost in bâ‚¬'
 positive variables GENE(tec,h),CAPA(tec),STORAGE(str,h),STORED(str,h),CAPACITY(str),RSV(frr,h),CONVERT(conv,h) ;
 equations        gene_vre                'variables renewable profiles generation'
                  gene_capa               'capacity and genration relation for technologies'
@@ -234,7 +234,7 @@ file results_mix /results_mix.txt/ ;
 put results_mix;
 put '                            the main results' //
 //
-'I)Overall investment cost is' cost.l 'b€' //
+'I)Overall investment cost is' cost.l 'bâ‚¬' //
 //
 'II)the Renewable capacity ' //
 'PV              'capa.l('PV')'  GW'//
